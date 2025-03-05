@@ -1,0 +1,39 @@
+button img {
+  width: 50px;
+  /* margin-right: 20px; */
+}
+nav {
+  background-color: #fbf7e3;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+button {
+  background-color: #f3df85;
+  border-radius: 80px;
+  border: none;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  color: #612406;
+  font-weight: bold;
+}
+ul {
+  flex-grow: 1;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button-logo{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content:space-evenly;
+    height: 70px;
+    width: 150px;
+    font-size: 1.5em;
+    padding: 10px;
+
+}
